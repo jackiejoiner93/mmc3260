@@ -1,0 +1,185 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: Cedarville Cursive, cursive;
+    background-image: url("diamonds.jpg");
+    align-content: center;
+}
+
+p {
+    font-size: 16px;
+    line-height: 24px;
+    font-family: Shadows Into Light Two, sans-serif;
+        
+}
+
+header img{
+    align-content: center;
+}
+
+nav {
+    margin-top: 10px;
+    text-align: center;
+    align-content: center;
+    padding: 10px 10px 10px 10px;
+    background-color: #ffffff;
+    width: 100%;
+}
+
+nav a {
+    align-content: center;
+    color: #aaaaaa;
+    margin-left: 15px;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+nav a hover {
+    align-content: center;
+    color: #D9FFFE;
+    font-weight: bold;
+    text-decoration: underline;
+    
+}
+
+article img{
+    margin-right: 10px;
+    margin-top: 10px;
+    width: 20%;
+    float: left;
+}
+
+article a{
+    color: #aaaaaa;
+}
+
+article {
+    margin-top: 10px;
+    padding: 10px 10px 10px 10px;
+    font-family: serif;
+    background-color: #ffffff;
+    height: 100%;
+    width: 100%;
+    border-style: inset;
+    border-color: #aaaaaa;
+    border-width: 5px;
+}
+
+article p {
+    color: #aaaaaa;
+    text-indent: 1em;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+
+article h1 {
+    color: #aaaaaa; 
+    font-size: 40px;
+    font-family: Cedarville Cursive, cursive;
+}
+
+article h2 {
+    font-size: 22px;
+    text-decoration: underline;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: Cedarville Cursive, cursive;
+    color: #aaaaaa;
+}
+
+ul {
+    color: #aaaaaa;
+    margin-top:10px;
+    line-height: 24px;
+    margin-bottom: 10px;
+    font-family: Shadows Into Light Two, sans-serif;
+}
+
+article div {
+   margin-left: 2px;
+    background color: #ffffff;
+    height: auto;
+    width: 500px;
+}
+
+article div.figure{
+  margin:3px;
+  border:1px solid #ffffff;
+  }
+
+article div.figure img
+{
+    width:50%;
+    float: none;
+}
+
+article div. p {
+  text-align: center;
+  float: left;
+  font-style: italic;
+  font-size: smaller;
+  text-indent: 0;
+}
+
+footer {
+    text-align:center;
+    background-color: #ffffff;
+    margin-top: 10px;
+    color: #aaaaaa;
+    font-family: Shadows Into Light Two, sans-serif;
+}
+
+footer a{
+    color: #aaaaaa;
+}
+
+#content {
+    
+}
+
+@media screen and (max-width: 600px) {
+    
+body {
+    padding: 5%;    
+}
+    
+article img {
+    height: auto;
+    width: 40%;   
+    }
+ 
+h1, h2 {
+    text-align: center;
+    margin: clear;
+    padding: clear;
+    
+    }
+header img {
+    align-content: center;
+        
+    }
+
+article ul  {
+     text-align: center;
+    }
+p {
+     text-align: center;   
+    }
+    
+nav {
+    width: 100%;
+    list-style-type: inline;
+}
+
+#content {
+        width:100%;
+        margin-left: 0;
+        clear: left;
+}
+    
+}    
